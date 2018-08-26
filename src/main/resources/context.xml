@@ -10,6 +10,7 @@
     <bean class="com.eviscerator.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="com.eviscerator.quoters.ProfilingHandlerBeanPostProcessor"/>
     <bean class="com.eviscerator.quoters.PostProxyInvokerContextListener"/>
+    <bean class="com.eviscerator.quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
 
     <bean class="com.eviscerator.quoters.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back" />
