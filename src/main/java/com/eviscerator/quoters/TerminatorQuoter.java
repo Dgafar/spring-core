@@ -14,7 +14,7 @@ public class TerminatorQuoter implements Quoter {
     }
 
     @PostConstruct
-    public void init() {
+    public void init(){
         System.out.println("Phase 2");
         System.out.println(repeat);
     }
