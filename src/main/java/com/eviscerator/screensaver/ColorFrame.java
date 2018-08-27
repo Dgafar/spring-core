@@ -1,11 +1,14 @@
 package com.eviscerator.screensaver;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
+@Component
 public class ColorFrame extends JFrame {
 
     @Autowired
