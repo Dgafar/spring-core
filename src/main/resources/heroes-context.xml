@@ -6,17 +6,17 @@
 
     <import resource="mount-context.xml"/>
 
-    <bean id="knight" class="com.andreitop.xml.unit.Human"
-        c:_2="soulBlade"
-        c:_1="thunderFury"
-        c:mount-ref="shadowTiger"
-    />
+    <!--<bean id="knight" class="com.andreitop.xml.unit.Human"-->
+        <!--c:_2="soulBlade"-->
+        <!--c:_1="thunderFury"-->
+        <!--c:mount-ref="shadowTiger"-->
+    <!--/>-->
 
-    <bean id="trall" class="com.andreitop.xml.unit.Orc"
-        c:mount-ref="frostWolf"
-        p:weapon="furryAxe"
-        p:colorCode="9"
-    />
+    <!--<bean id="trall" class="com.andreitop.xml.unit.Orc"-->
+        <!--c:mount-ref="frostWolf"-->
+        <!--p:weapon="furryAxe"-->
+        <!--p:colorCode="9"-->
+    <!--/>-->
 </beans>
 
 

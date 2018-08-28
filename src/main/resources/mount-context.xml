@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="frostWolf" class="com.andreitop.xml.mount.Wolf"/>
-    <!--can be inside property/constructor namespaces-->
-    <bean id="shadowTiger" class="com.andreitop.xml.mount.Tiger"/>
+    <!--<bean id="frostWolf" class="com.andreitop.xml.mount.Wolf"/>-->
+    <!--&lt;!&ndash;can be inside property/constructor namespaces&ndash;&gt;-->
+    <!--<bean id="shadowTiger" class="com.andreitop.xml.mount.Tiger"/>-->
 </beans>
